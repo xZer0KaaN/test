@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from tipp-teufel.de/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Nov 2023 19:56:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Tipp-Teufel</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/tipp-teufel.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="js-cookie/js.cookie.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="messenger/messanger.js"></script>
+	<script type="text/javascript" src="modpush.js"></script>
+	<script src="../cdn.tiny.cloud/1/invalid-origin/tinymce/6.7.2-32/tinymce.min.js"
+		referrerpolicy="origin"></script>
+	<meta name="_csrf" content="79b8774b-3827-43af-92ec-c8dee0d0cff2" />
+	<meta name="_csrf_header" content="X-CSRF-TOKEN" />
+	<script>
+		var token = $("meta[name='_csrf']").attr("content");
+		var header = $("meta[name='_csrf_header']").attr("content");
+
+		$(document).ajaxSend(function (e, xhr, options) {
+			xhr.setRequestHeader(header, token);
+		});
+	</script>
+</head>
+
+<body class="login-body">
+	<div class="container w-100 h-100">
+		<div class="row align-items-center h-100">
+			<div class="col-md-6 mx-auto">
+				<div class="card text-center align-self-center">
+					<div class="card-header">
+						<h2>Anmeldung</h2>
+					</div>
+					<div class="card-body">
+						<form action="https://tipp-teufel.de/login" method="post"><input type="hidden" name="_csrf" value="79b8774b-3827-43af-92ec-c8dee0d0cff2"/>
+							<div class="mb-3">
+								<input type="text" name="username" placeholder="Benutzername oder E-Mail"
+									class="form-control">
+							</div>
+							<div class="mb-3">
+								<input type="password" name="password" placeholder="Passwort" class="form-control">
+							</div>
+							
+							
+							<div class="d-grid gap-2">
+								<button type="submit" class="btn btn-primary">Login</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+<!-- Mirrored from tipp-teufel.de/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Nov 2023 19:56:22 GMT -->
+</html>

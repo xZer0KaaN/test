@@ -1,0 +1,541 @@
+:root {
+    --ss-primary-color: #0000CD;
+    --ss-primary-color-gradient: linear-gradient(60deg, #0000CD, #0000c0);
+    --ss-primary-color-box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(0, 0, 205);
+    --ss-primary-color-primary-btn-box-shadow: 0 2px 2px 0 rgb(1, 1, 147), 0 3px 1px -2px rgb(55, 55, 145), 0 1px 5px 0 rgb(1, 1, 147);
+    --ss-primary-color-primary-btn-box-shadow_hover: 0 14px 26px -12px rgb(1, 1, 147), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgb(1, 1, 147);;
+}
+
+.container-full-width .container {
+    max-width: 100%;
+}
+
+.birthday-today {
+    background-color: lightcoral;
+}
+
+.birthday-next-days {
+    background-color: lightyellow;
+}
+
+.dialog-overview-btn {
+    float: left;
+}
+
+.delete-dialog-overview-btn {
+    float: right;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin: 1px 0;
+}
+
+.delete-dialog-overview-btn > img {
+    width: 1.3em;
+}
+
+.messanger-tab-pane {
+    width: 100%;
+}
+
+.card-female {
+    background-color: lightcoral;
+}
+
+.card-male {
+    background-color: lightblue;
+}
+
+.img-thumb {
+    max-width: 100%;
+    max-height: 10em;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.userMessagesTable td:nth-child(3) {
+    text-align: left;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    text-decoration: line-through;
+    background-color: lightgrey;
+    border-color: grey;
+}
+
+.tr-error {
+    background-color: lightcoral;
+}
+
+.text-error textarea {
+    background-color: lightcoral;
+}
+
+.poolItem button {
+    padding: 1px;
+    margin: 5px 2px;
+}
+
+.poolItem {
+    display: inline-block;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fcecff;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.online-dot {
+    background-color: #0F0;
+}
+
+.offline-dot {
+    background-color: #F00;
+
+}
+
+.message-container {
+    max-height: 100%;
+    display: flex;
+}
+
+.ac-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    white-space: nowrap;
+
+}
+
+.ac-slider-container {
+
+    height: 5em;
+}
+
+.ac-slider > li {
+    display: inline-block;
+    margin: 0 0.3em;
+    padding: 0.2em;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.slider-client-item {
+    background-image: linear-gradient(rgb(159, 216, 0) 0px, rgb(63, 84, 0) 100%);
+}
+
+.slider-friend-item {
+    background: linear-gradient(to bottom, #f70 0, #542700 100%);
+
+}
+
+.slider-buy-item {
+    background: linear-gradient(to bottom, #66FEE5 0, #003854 100%);
+}
+
+.slider-profile-item {
+    background: linear-gradient(to bottom, #08c 0, #003854 100%);
+}
+
+
+.ac-slider > li > span {
+    font-size: 0.75em;
+}
+
+.bg-g {
+    background-color: green !important;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+}
+
+.new-dialog-blinking .blink_me_new {
+    animation: blinker 2s linear infinite;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.billingTable td {
+    padding: .1rem .5rem;
+}
+
+.miniBillingTable td, .miniBillingTable th {
+    color: white;
+    font-size: 0.8em;
+    padding: .0rem .5rem;
+    background: none;
+}
+
+.messanger-zoom-lbl {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.messanger-zoom-input {
+    width: 50%;
+    vertical-align: middle;
+}
+
+form hr {
+    margin-top: 5px;
+}
+
+form:invalid input[type="submit"] {
+    display: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+div {
+    overflow: auto;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    font-size: 100%;
+}
+
+:not([data-bs-theme=dark]) body {
+    background-color: #CCC;
+}
+
+.attachement_image {
+    max-width: 100px;
+    margin: 5px 5px 0 0;
+    transition: all 200ms ease-out;
+    float: left;
+}
+
+.attachement_image:hover {
+    transform: scale(1.5);
+}
+
+.attachement_image_container {
+    overflow: visible;
+}
+
+.selected-attachment {
+    border: solid red 3px;
+    box-shadow: 0 0 15px rgb(255, 0, 0);
+}
+
+.accordion-header, .accordion-button {
+    font-size: 1em;
+}
+
+span {
+    font-size: 1em;
+}
+
+.history {
+    min-height: 150px;
+}
+
+
+.history img {
+    height: 100px;
+}
+
+.history p {
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+
+}
+
+.hide-customer-messages .history p:not(.ownMessage) {
+    display: none;
+}
+
+.history p.ownMessage {
+    float: left;
+    text-align: left;
+}
+
+:not([data-bs-theme=dark]) .history p.ownMessage {
+    background-color: #e7f1ff;
+}
+
+[data-bs-theme=dark] .history p.ownMessage {
+    background-color: #00337b;
+}
+
+.history p.ownMessage span {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: -10px;
+    float: left;
+}
+
+.history p span {
+    font-weight: bold;
+    padding: 2px 10px;
+    margin-top: -10px;
+}
+
+.history p:not(.ownMessage) span {
+    float: right;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: -10px;
+}
+
+.history p:not(.ownMessage) {
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+}
+
+:not([data-bs-theme=dark]) .history p:not(.ownMessage) {
+    background-color: #EEE;
+}
+
+[data-bs-theme=dark] .history p:not(.ownMessage) {
+    background-color: #424242;
+}
+
+
+.profil-preference-list-group {
+    list-style: none;
+}
+
+.profil-preference-list-group-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+dt, dd {
+    margin: 0;
+}
+
+header {
+}
+
+table th {
+    color: var(--ss-primary-color);
+}
+
+table td, table td a {
+    color: #555;
+}
+
+.card-main {
+    text-align: left;
+}
+
+.login-body {
+    background-image: url("../images/login_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+:not([data-bs-theme=dark]) .messanger-note-heading {
+    background-color: #e7f1ff;
+}
+
+[data-bs-theme=dark] .messanger-note-heading {
+    background-color: #00337b;
+}
+
+.messanger-note-heading {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+}
+
+.alert {
+    padding: .25rem .25rem;
+}
+
+.btn {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1em;
+}
+
+.btn-primary:hover {
+    box-shadow: var(--ss-primary-color-primary-btn-box-shadow_hover);
+
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary {
+    background-color: var(--ss-primary-color);
+    border-color: var(--ss-primary-color);
+    box-shadow: var(--ss-primary-color-primary-btn-box-shadow);
+}
+
+.logout-input-submit {
+    background: none;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--ss-primary-color);
+    border-color: var(--ss-primary-color);
+}
+
+.head-navbar {
+    min-height: 70px;
+}
+
+.head-navbar > div {
+    overflow: visible;
+}
+
+.card {
+    overflow: visible;
+    margin: 30px 10px;
+    border-radius: .5rem !important;
+    border: solid lightgrey 1px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+
+.card-body {
+
+}
+
+.card-header {
+    margin: -20px 15px 0 15px;
+    border-radius: .25rem !important;
+    display: flex;
+    align-items: center;
+}
+
+.card-header h1, .card-header h2, .card-header h3, .card-header h4, .card-header h5, .card-header h6 {
+    margin: 0;
+}
+
+.card-header button, .card-header a {
+    margin-left: auto;
+}
+
+.commissionSelect, .relationSelect {
+    padding: 10px 12px !important;
+    line-height: 1;
+    height: calc(36px) !important;
+}
+
+.card-header, .bg-light {
+    background-image: var(--ss-primary-color-gradient);
+    box-shadow: var(--ss-primary-color-box-shadow);
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-item .nav-link {
+    color: var(--ss-primary-color);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+[data-bs-theme=dark] .navbar-light .navbar-nav .nav-item .nav-item .nav-link {
+    color: #FFF;
+}
+
+#profilSelection {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.hideCustomerImages .hideableImage {
+    display: none;
+}
+
+#messagerContainer {
+}
+
+.active.nav-link.messanger_tab_button {
+    padding-bottom: 15px;
+}
+
+.active.nav-link.messanger_tab_button, .nav-link.messanger_tab_button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin: 0;
+    outline-color: #FFF;
+    outline: none;
+    transition: padding 0.5s ease;
+    box-shadow: var(--ss-primary-color-box-shadow);
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-item .nav-link:hover, .active.nav-link.messanger_tab_button, .nav-link.messanger_tab_button {
+    background-color: var(--ss-primary-color);
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.navbar-logo {
+    height: 2.5rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.emoticon-container .item-emoticon {
+    float: left;
+}
+
+.tox-tinymce-aux {
+    overflow: initial;
+}
+
+.first-tr-bold tr:first-child td {
+    font-weight: bold;
+}
+
+.table-no-padding td, table-no-padding th {
+    padding: 0;
+}
+
+.ss-vertical-center {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}

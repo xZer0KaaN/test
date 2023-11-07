@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+tipp-teufel.de	TRUE	/	FALSE	1999999999	SESSION	ODIzZTJjZTMtMGI5My00ZGMyLThmZDctNDY1NDhkNWY5MmU5
+tipp-teufel.de	TRUE	/	FALSE	1999999999	SameSite	Lax
+
